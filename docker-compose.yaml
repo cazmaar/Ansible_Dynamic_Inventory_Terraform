@@ -9,6 +9,23 @@ services:
     ports:
       - 4007:300
   postgres2:
-
-
+    image: cazmaars/docker:dr-1.345
+    ports:
+      - 4007:3000
+  postgres3:
+    image: cazmaars/docker:dr-1.345
+    ports:
+      - 4007:3000
+  postgres4:
+    image: cazmaars/docker:dr-1.345
+    ports:
+      - 4007:3000
+  postgres5:
+    image: cazmaars/docker:dr-1.345
+    ports:
+      - 4007:3000
+  postgres6:
+    image: cazmaars/docker:dr-1.345
+    ports:
+      - 4007:3000
 
