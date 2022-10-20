@@ -9,8 +9,6 @@ services:
     ports:
       - 4007:300
   postgres2:
-    image: cazmaars/docker:dr-1.0444
-    ports:
-      - 4007:300
+
 
 
