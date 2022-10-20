@@ -1,5 +1,5 @@
 ---
-
+# This is the inventory plugin file.
 plugin: aws_ec2 #pluign name
 regions:
   - eu-west-2
@@ -7,7 +7,7 @@ filters:
   instance-state-name: running #filter the servers by instance state.
   tag:Name: #checks for servers with this dev names.
     - dev* #the tag name you want to use to filter
-    
+
 
 # putting your servers into a group based on a particular attribute and then running it for only those servers.
 # keyed_groups: 
