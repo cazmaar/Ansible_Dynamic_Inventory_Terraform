@@ -4,5 +4,9 @@ services:
     image: cazmaars/docker:dr-1.2
     ports:
       - 4007:3000
+  postgres1:
+    image: cazmaars/docker:dr-1.2
+    ports:
+      - 4007:3000
 
 
