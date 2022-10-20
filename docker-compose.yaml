@@ -1,16 +1,16 @@
 version: '3'
 services:
   postgres:
-    image: cazmaars/docker:dr-1.0
+    image: cazmaars/docker:dr-1.1
     ports:
-      - 4007:3000
+      - 4007:300
   postgres1:
-    image: cazmaars/docker:dr-1.0
+    image: cazmaars/docker:dr-1.1
     ports:
-      - 4007:3000
+      - 4007:300
   postgres2:
-    image: cazmaars/docker:dr-1.0
+    image: cazmaars/docker:dr-1.04
     ports:
-      - 4007:3000
+      - 4007:300
 
 
